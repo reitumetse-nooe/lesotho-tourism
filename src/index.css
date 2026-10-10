@@ -1,0 +1,58 @@
+/* Apply basic settings to every element */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the style for the whole website */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+/* Set the default font and background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222222;
+  line-height: 1.6;
+}
+
+/* Make images fit their containers */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove default link underlines */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Make buttons and form fields use the same font */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+/* Improve button appearance */
+button {
+  cursor: pointer;
+}
+
+/* Make headings easier to read */
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+}
+
+/* Remove list markers */
+ul {
+  list-style: none;
+}
